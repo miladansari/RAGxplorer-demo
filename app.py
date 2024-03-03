@@ -22,7 +22,7 @@ st.set_page_config(
 
 os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 os.environ['HF_API_KEY'] = st.secrets["HF_API_KEY"]
-OPENAI_API_KEY = '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'
+
 if "chart" not in st.session_state:
     st.session_state['chart'] = None
 
